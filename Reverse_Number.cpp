@@ -3,7 +3,10 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    int num = 321, reverse = 0, n;
+    int num, reverse = 0, n;
+    
+    cout<<"Enter a number: ";
+    cin>>num;
 
     while (num != 0)
     {
@@ -15,6 +18,8 @@ int main(int argc, char const *argv[])
         num /= 10;
     }
 
+    
+    cout<<"--------------------------------------------------------------------------"<<endl<<endl;
     cout << "The reversed number is " << reverse << endl;
 
     return 0;
