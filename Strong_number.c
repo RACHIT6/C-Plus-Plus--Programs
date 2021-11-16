@@ -27,10 +27,6 @@ int main(int argc, char const *argv[])
         num /= 10;
     }
 
-    // sum += temp;
-
-    // printf("%d\n", sum);
-
     if (n == sum)
     {
         printf("Strong number\n");
